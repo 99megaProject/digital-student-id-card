@@ -1,0 +1,89 @@
+<svg width="850" height="540" viewBox="0 0 850 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Back side of student ID card</title>
+  <desc>Displays contact info, address, and QR code placeholder for ABC College</desc>
+
+  <!-- Embedded Poppins font -->
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAm4ABIAAAAB3fAAAAluAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbg1o...) format('woff2');
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAkUABIAAAAB5PAAAAmcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbg1o...) format('woff2');
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAkUABIAAAAB5PAAAAmcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbg1o...) format('woff2');
+    }
+    @font-face {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      src: url(data:font/woff2;base64,d09GMgABAAAAAAkUABIAAAAB5PAAAAmcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbg1o...) format('woff2');
+    }
+
+    .text-body {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      fill: #333333;
+    }
+    .text-label {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      fill: #333333;
+    }
+    .text-header {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      fill: white;
+    }
+    .text-address {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      fill: white;
+    }
+  </style>
+
+  <!-- Base card -->
+  <rect width="850" height="540" rx="30" fill="#F6F5F0" />
+
+  <!-- Header -->
+  <rect width="850" height="120" fill="#1C3B6F" />
+  <text x="150" y="75" class="text-header" id="college-name">Indian Institute of Technology Delhi</text>
+
+  <!-- QR Placeholder -->
+  <!-- <rect x="60" y="180" width="220" height="220" fill="white" stroke="#1C3B6F" stroke-width="2" rx="12" />
+  <text x="170" y="310" text-anchor="middle" class="text-label" fill="#1C3B6F">QR CODE</text> -->
+  <rect id="qr-placeholder" x="60" y="180" width="220" height="220" fill="#FFC72C"></rect> 
+
+
+  <!-- Right side content -->
+  <text x="340" y="180" class="text-label">STUDENT CONTACT</text>
+  <text x="340" y="210" class="text-body" id="student-contact">+123-456-7890</text>
+
+  <text x="340" y="260" class="text-label">COLLEGE ADDRESS</text>
+  <text x="340" y="290" class="text-body" id="college-line1">IIT Delhi, Hauz Khas,</text>
+  <text x="340" y="320" class="text-body" id="college-line2">New Delhi, 110016, India</text>
+
+  <text x="340" y="370" class="text-label">COLLEGE CONTACT</text>
+  <text x="340" y="400" class="text-body" id="college-contact">+1 555 123 4567</text>
+
+  <!-- Card issued info -->
+  <text x="60" y="430" class="text-label">CARD ISSUED</text>
+  <text x="60" y="460" class="text-body" id="date-issued">07/15/2024</text>
+
+  <!-- Footer -->
+  <rect x="0" y="480" width="850" height="60" fill="#1C3B6F" />
+  <text x="50" y="515" class="text-address" id="footer-info">Powered by Indian Institute of Technology Delhi</text>
+</svg>

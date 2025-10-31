@@ -1,0 +1,73 @@
+
+<svg width="850" height="540" viewBox="0 0 850 540" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- CSS for consistent styling -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;display=swap');
+    
+    .text-body { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; fill: #333333; }
+    .text-label { font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; fill: #333333; }
+    .text-name { font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 700; fill: #333333; }
+    .text-college-header { font-family: 'Poppins', sans-serif; font-size: 30px; font-weight: 800; fill: white; } 
+    .text-signature-label { font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; fill: #333333; }
+    .text-address { font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; fill: white; }
+  </style>
+
+  <!-- 1. BASE CARD -->
+  <rect width="850" height="540" rx="30" fill="#F6F5F0"></rect>
+  
+  <!-- 2. HEADER BAR -->
+  <rect width="850" height="120"   fill="#1C3B6F"></rect>
+
+  <!-- 3. COLLEGE LOGO Placeholder -->
+  <rect id="placeholder-college-logo" x="50" y="35" width="50" height="50" fill="#FFC72C"></rect> 
+
+  <!-- 4. COLLEGE NAME Text -->
+  <text x="90" y="70" class="text-college-header" text-anchor="start">
+    <tspan id="text-college-name" x="150" dy="0">Indian Institute of Technology Delhi</tspan>
+  </text>
+  
+  <!-- 5. PROFILE PHOTO Placeholder -->
+  <rect id="placeholder-profile-photo" x="50" y="150" width="200" height="240" fill="#D4D4D4"></rect>
+  
+  <!-- 6. TEACHER DETAILS -->
+  <text x="310" y="170" class="text-name">
+    <tspan id="text-teacher-name">JOHN DOE</tspan>
+  </text>
+
+  <text x="310" y="220" class="text-label">Qualification </text>
+  <text x="490" y="220" class="text-body">
+    <tspan id="text-qualification">123456</tspan>
+  </text>
+
+  <text x="310" y="260" class="text-label">Date of Birth </text>
+  <text x="490" y="260" class="text-body">
+    <tspan id="text-dob">06/15/2000</tspan>
+  </text>
+  
+  <text x="310" y="300" class="text-label">Designation </text>
+  <text x="490" y="300" class="text-body">
+    <tspan id="text-designation">BSc 2nd Year</tspan>
+  </text>
+
+  <text x="310" y="340" class="text-label">Contact </text>
+  <text x="490" y="340" class="text-body">
+    <tspan id="text-phone">JAMES DOE</tspan>
+  </text>
+  
+  
+  
+  <!-- 7. ADDRESS at Bottom -->
+  <rect x="0" y="480" width="850" height="60" rx="0" fill="#1C3B6F"></rect>
+  <text x="50" y="515" class="text-address" id="text-address">
+    IIT Delhi, Hauz Khas, New Delhi, 110016, India
+  </text>
+
+  <!-- 8. SIGNATURES -->
+  <rect id="placeholder-college-sign" x="540" y="410" width="120" height="50" fill="#F6F5F0"></rect>
+  <text x="600" y="475" text-anchor="middle" class="text-signature-label">COLLEGE SIGN</text>
+
+  <rect id="placeholder-teacher-sign" x="680" y="410" width="120" height="50" fill="#F6F5F0"></rect>
+  <text x="740" y="475" text-anchor="middle" class="text-signature-label">TEACHER SIGN</text>
+</svg>
+
+ 
