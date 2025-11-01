@@ -100,8 +100,8 @@ def teacher_login():
         # making card
         # make_card(teacher)
         
-        svg_path_1 = "tmp/teacher_id_card_front.svg"
-        svg_path_2 = "tmp/teacher_id_card_back.svg"
+        svg_path_1 = "../tmp/teacher_id_card_front.svg"
+        svg_path_2 = "../tmp/teacher_id_card_back.svg"
 
         # Read SVG files and encode in base64 (so they can be sent via JSON)
         def encode_svg(path):
