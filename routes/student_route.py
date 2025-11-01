@@ -444,7 +444,7 @@ def make_card(student_data):
        "registration_no" : student_data["registration_no"],
        "type" : "student"
     })
-    qr_code_url = "tmp/qrcode.png"
+    qr_code_url = "../tmp/qrcode.png"
 
     merge_svg_template_front({
         "name": student_data["name"],
