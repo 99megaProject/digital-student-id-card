@@ -208,7 +208,7 @@ def merge_svg_template_back(data,SVG_TEMPLATE_PATH="other/id_card_back_template.
 
     # 3. Embed Images (fetch data and replace placeholders)
     
-    qrcode_uri = get_image_base64(data.get("qr_code_url"), placeholder_text="QRcode")
+    qrcode_uri = get_image_base64(data.get("tmp/qrcode.png"), placeholder_text="QRcode")
     replace_image_by_id(root, "qr-placeholder", qrcode_uri)
     
     # 4. Save the final merged SVG
